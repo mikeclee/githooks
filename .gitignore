@@ -1,0 +1,20 @@
+# Git Ignore configuration for the Repository
+
+# Directory matching with ending /
+target/
+.settings/
+.buildpath/
+node_modules/
+.idea/
+.DS_Store/
+
+# File matching
+.project
+tmp-*
+*.iml
+*.swp
+*.swo
+*.log
+
+# Negation matching with starting !
+!default*
