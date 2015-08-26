@@ -1,0 +1,12 @@
+# Local repo configuration commands
+
+git config --local alias.st status
+git config --local alias.co checkout
+git config --local alias.br branch
+git config --local alias.ci commit
+git config --local alias.graph "log --graph --all --oneline"
+git config --local alias.log-short "log --pretty=oneline"
+git config --local alias.change-comment "commit --amend"
+git config --local user.email <email>
+git config --local user.name <name>
+git config --local push.default simple
